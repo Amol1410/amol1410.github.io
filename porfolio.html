@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amol Jain | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .gradient-text { background: linear-gradient(90deg, #1e3a8a, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter gradient-text">AMOL JAIN</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#extracurricular" class="hover:text-blue-600 transition">Extra Curricular</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+            </div>
+            <a href="mailto:pgib25amol_j@mdi.ac.in" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">Contact Me</a>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="w-64 h-64 md:w-80 md:h-80 flex-shrink-0">
+                <div class="w-full h-full rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
+                    <img src="./images/linkedin.png" alt="Amol Jain" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <div class="flex-1 text-left">
+                <span class="px-4 py-1.5 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase tracking-widest">
+                    MiM Candidate @MDI
+                </span>
+                <!-- <h1 class="text-4xl md:text-5xl font-extrabold mt-6 mb-6 leading-tight text-slate-900">
+                    Amol Jain
+                </h1>
+                <p class="text-xl font-semibold text-blue-600 mb-4">
+                    Driving Growth through Analytical Leadership & Digital Innovation
+                </p> -->
+                <h1 class="text-5xl md:text-6xl font-extrabold mt-6 mb-6 leading-tight">
+                    Driving Growth through <br><span class="gradient-text">Analytical Leadership</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    Senior Engineer with 2.5+ years at Samsung Semiconductor. 
+                    I combine a Computer Science foundation with global business education to solve complex challenges in 
+                    Finance, Product Management, and Marketing.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="mailto:pgib25amol_j@mdi.ac.in" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+                        Get in Touch
+                    </a>
+                    <a href="https://linkedin.com/in/amolj14" class="border border-slate-300 px-8 py-3 rounded-lg font-bold hover:bg-slate-300 transition">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-y border-slate-200 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl font-bold text-blue-600">30+</p>
+                <p class="text-sm text-slate-500 uppercase tracking-wide">Months at Samsung</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-blue-600">98%</p>
+                <p class="text-sm text-slate-500 uppercase tracking-wide">CAT percentile</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-blue-600">Top 2%</p>
+                <p class="text-sm text-slate-500 uppercase tracking-wide">JEE Mains Rank</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-blue-600">50+</p>
+                <p class="text-sm text-slate-500 uppercase tracking-wide">Students mentored</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="w-12 h-1 bg-blue-600 mr-4"></span> Professional Experience
+            </h2>
+            
+            <div class="space-y-12">
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Senior Engineer</h3>
+                            <p class="text-blue-600 font-medium">Samsung Semiconductor</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">Jan 2023 - Jul 2025</span>
+                    </div>
+                    <ul class="text-slate-600 space-y-3 list-disc ml-4">
+                        <li>Architected a CRB monitoring dashboard for leadership, improving decision visibility.</li>
+                        <li>Improved resource utilization by 30% through virtual deployment initiatives.</li>
+                        <li>Reduced error resolution time by 25% via optimized system diagnostics.</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-slate-300 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Java Developer (Intern)</h3>
+                            <p class="text-blue-600 font-medium">TCS Research & Innovation</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">May 2022 - Jul 2022</span>
+                    </div>
+                    <ul class="text-slate-600 space-y-3 list-disc ml-4">
+                        <li>Improved testing accuracy by 40% using Pareto analysis.</li>
+                        <li>Built digital twin models for healthcare operations to support strategic planning.</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-slate-300 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">Python Developer (Intern)</h3>
+                            <p class="text-blue-600 font-medium">AppSentinels</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">Jun 2021 - Jul 2021</span>
+                    </div>
+                    <ul class="text-slate-600 space-y-3 list-disc ml-4">
+                        <li>Connected the webpages to the backend using REST APIs.</li>
+                        <li>Built the website framework using Python Django.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="w-12 h-1 bg-blue-600 mr-4"></span> Key Projects
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <img src="./images/prodman.jpeg" alt="Dashboard Project" class="w-full h-48 object-cover bg-slate-100">
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-blue-600 uppercase">Product Management</span>
+                        <h3 class="text-xl font-bold mt-2">CRB Monitoring Dashboard</h3>
+                        <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+                            Architected a real-time performance tracking tool for leadership at Samsung. 
+                            Improved decision visibility and system diagnostic efficiency by 25%.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <img src="./images/FinanceProject.png" alt="Dashboard Project" class="w-full h-48 object-cover bg-slate-100">
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-blue-600 uppercase">Financial Analysis</span>
+                        <h3 class="text-xl font-bold mt-2">Pharma Valuation Project</h3>
+                        <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+                            Analysed the pharmaceutical sector evaluating financial strength, operational efficiency, and valuation metrics to assess intrinsic value, market pricing and long-term investment attractiveness.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border border-slate-200 rounded-2xl overflow-hidden hover:shadow-xl transition flex flex-col">
+                    <img src="./images/operation.jpeg" alt="Digital Twin Project" class="w-full h-48 object-cover bg-slate-100">
+                    <div class="p-6">
+                        <span class="text-xs font-bold text-blue-600 uppercase">Analytics & Operations</span>
+                        <h3 class="text-xl font-bold mt-2">Healthcare Digital Twin</h3>
+                        <p class="text-slate-600 mt-3 text-sm leading-relaxed">
+                            Built virtual replication models for healthcare operations at TCS R&I to support risk assessment. 
+                            Enabled data-driven operational insights for strategic planning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="w-12 h-1 bg-blue-600 mr-4"></span> Educational qualification
+            </h2>
+            
+            <div class="space-y-12">
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-blue-600 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">ESCP BUSINESS SCHOOL</h3>
+                            <p class="text-blue-600 font-medium">Master in Management - Master 2</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">2027</span>
+                    </div>
+                    <p class="text-slate-600 space-y-3 list-disc ml-4">
+                        Core courses: Strategy, Pricing, Finance, Business Intelligence, Consumer Behaviour, Digital Innovation, Statistics
+                    </p>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-slate-300 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">INDIAN INSTITUTE OF INFORMATION TECHNOLOGY PUNE</h3>
+                            <p class="text-blue-600 font-medium">Computer Science Engineering</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">2023</span>
+                    </div>
+                    <p class="text-slate-600 space-y-3 list-disc ml-4">
+                        Relevant coursework: Database Management, Artificial Intelligence, Machine Learning, Probability, Sustainabilty
+                    </p>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-slate-200">
+                    <div class="absolute -left-2 top-0 w-4 h-4 bg-slate-300 rounded-full"></div>
+                    <div class="flex flex-wrap justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">LBS SCHOOL, RK PURAM, NEW DELHI</h3>
+                            <p class="text-blue-600 font-medium">Intermediate</p>
+                        </div>
+                        <span class="text-sm text-slate-500 bg-slate-100 px-3 py-1 rounded">2019</span>
+                    </div>
+                    <p class="text-slate-600 space-y-3 list-disc ml-4">
+                        Courses: Physics, Mathematics, Chemistry, English Written and Verbal, Physical Education
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="extracurricular" class="py-20 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Leadership & Community Impact</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center group">
+                    <div class="w-full h-64 rounded-2xl overflow-hidden mb-4 shadow-md">
+                        <img src="./images/social.jpeg" alt="Social Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <h4 class="font-bold text-lg">Social Initiatives</h4>
+                    <p class="text-sm text-slate-500 px-4 mt-2">Organized 20+ food camps and supported eye care missions for underprivileged communities.</p>
+                </div>
+
+                <div class="text-center group">
+                    <div class="w-full h-64 rounded-2xl overflow-hidden mb-4 shadow-md">
+                        <img src="./images/ecell.png" alt="E-Cell" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <h4 class="font-bold text-lg">Entrepreneurship Cell</h4>
+                    <p class="text-sm text-slate-500 px-4 mt-2">Co-founded IIIT Pune E-Cell; executed 2 E-Summits with 1000+ participants.</p>
+                </div>
+
+                <div class="text-center group">
+                    <div class="w-full h-64 rounded-2xl overflow-hidden mb-4 shadow-md">
+                        <img src="./images/trekking.jpeg" alt="Badminton Club" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <h4 class="font-bold text-lg">Club Founding</h4>
+                    <p class="text-sm text-slate-500 px-4 mt-2">Founded a Badminton Club at Samsung and a Trekking Club to promote team bonding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 px-6 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">Technical & Management Toolkit</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <h4 class="text-blue-400 font-bold uppercase tracking-widest text-xs mb-4">Management & Soft Skills</h4>
+                    <div class="flex flex-wrap gap-2" id="soft-skills"></div>
+                </div>
+                <div>
+                    <h4 class="text-blue-400 font-bold uppercase tracking-widest text-xs mb-4">Tech & Data</h4>
+                    <div class="flex flex-wrap gap-2" id="tech-skills"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-400 text-sm border-t border-slate-200">
+        <p>&copy; 2025 AMOL JAIN.</p>
+    </footer>
+
+    <script>
+        // Data for Skills
+        const tech = ["Python", "SQL", "Advanced Excel", "Jira", "Figma", "Javascript", "Rust", "Data Analysis"];
+        const soft = ["Team Leadership", "Product Strategy", "Problem Solving", "Agility", "Structured Thinking"];
+
+        const renderSkills = (list, containerId) => {
+            const container = document.getElementById(containerId);
+            list.forEach(skill => {
+                const el = document.createElement('span');
+                el.className = "px-4 py-2 bg-white/10 rounded-lg text-sm border border-white/10 hover:bg-white/20 transition cursor-default";
+                el.innerText = skill;
+                container.appendChild(el);
+            });
+        };
+
+        renderSkills(tech, 'tech-skills');
+        renderSkills(soft, 'soft-skills');
+    </script>
+</body>
+</html>
